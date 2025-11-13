@@ -106,12 +106,8 @@ tokens-refactored/
 **Radius**
 - sm(4px), smPlus(6px), md(8px), lg(16px), full(999px)
 
-**Border**
-- 다양한 상태별 보더 스타일 정의 (구조만, 색상은 테마별)
-- default, primary, success, warning, danger, focus, disabled 등
-
 #### semantic-light.json / semantic-dark.json (테마 의존적)
-각 테마별로 다른 색상만 정의:
+각 테마별로 다른 값을 가지는 속성들:
 
 **Color**
 ```json
@@ -122,6 +118,11 @@ tokens-refactored/
   "semantic.color.state.success.default": "성공 상태"
 }
 ```
+
+**Border**
+- 다양한 상태별 보더 스타일 (color가 테마별로 다름)
+- default, subtle, strong, primary, success, warning, danger, focus, disabled, dashed
+- field.default, field.focus, field.error
 
 ## 🎨 Light vs Dark Mode
 

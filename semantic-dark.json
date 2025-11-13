@@ -172,6 +172,145 @@
           }
         }
       }
+    },
+    "border": {
+      "default": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.border.default}"
+        },
+        "type": "border",
+        "description": "기본 카드/컨테이너 (Dark Mode)"
+      },
+      "subtle": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.border.subtle}"
+        },
+        "type": "border",
+        "description": "옅은 구분선 (Dark Mode)"
+      },
+      "strong": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.border.strong}"
+        },
+        "type": "border",
+        "description": "강조 라인 (Dark Mode)"
+      },
+      "divider": {
+        "value": {
+          "width": "{primitive.borderWidth.hairline}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.border.subtle}"
+        },
+        "type": "border",
+        "description": "리스트/셀 구분선 (Dark Mode)"
+      },
+      "primary": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.action.primary}"
+        },
+        "type": "border",
+        "description": "주요 액션/선택 강조 (Dark Mode)"
+      },
+      "success": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.state.success.default}"
+        },
+        "type": "border",
+        "description": "성공 상태 (Dark Mode)"
+      },
+      "warning": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.state.warning.default}"
+        },
+        "type": "border",
+        "description": "경고 상태 (Dark Mode)"
+      },
+      "danger": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.state.danger.default}"
+        },
+        "type": "border",
+        "description": "에러 상태 (Dark Mode)"
+      },
+      "selected": {
+        "value": {
+          "width": "{primitive.borderWidth.2}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.action.primary}"
+        },
+        "type": "border",
+        "description": "선택 행/카드 강조 (Dark Mode)"
+      },
+      "focus": {
+        "value": {
+          "width": "{primitive.borderWidth.2}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.action.primary}"
+        },
+        "type": "border",
+        "description": "포커스 테두리 (Dark Mode)"
+      },
+      "disabled": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.solid}",
+          "color": "{semantic.color.border.subtle}"
+        },
+        "type": "border",
+        "description": "비활성 컨트롤 (Dark Mode)"
+      },
+      "dashed": {
+        "value": {
+          "width": "{primitive.borderWidth.1}",
+          "style": "{primitive.borderStyle.dashed}",
+          "color": "{semantic.color.border.default}"
+        },
+        "type": "border",
+        "description": "드롭존/빈 상태 (Dark Mode)"
+      },
+      "field": {
+        "default": {
+          "value": {
+            "width": "{primitive.borderWidth.1}",
+            "style": "{primitive.borderStyle.solid}",
+            "color": "{semantic.color.border.default}"
+          },
+          "type": "border",
+          "description": "Input 기본 (Dark Mode)"
+        },
+        "focus": {
+          "value": {
+            "width": "{primitive.borderWidth.2}",
+            "style": "{primitive.borderStyle.solid}",
+            "color": "{semantic.color.action.primary}"
+          },
+          "type": "border",
+          "description": "Input 포커스 (Dark Mode)"
+        },
+        "error": {
+          "value": {
+            "width": "{primitive.borderWidth.1}",
+            "style": "{primitive.borderStyle.solid}",
+            "color": "{semantic.color.state.warning.default}"
+          },
+          "type": "border",
+          "description": "Input 에러 (Dark Mode)"
+        }
+      }
     }
   }
 }
