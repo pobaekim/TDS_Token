@@ -1,0 +1,23 @@
+[
+  {
+    "id": "light",
+    "name": "Light Theme",
+    "selectedTokenSets": {
+      "primitive": "enabled",
+      "semantic-common": "enabled",
+      "semantic-light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "dark",
+    "name": "Dark Theme",
+    "selectedTokenSets": {
+      "primitive": "enabled",
+      "semantic-common": "enabled",
+      "semantic-dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
+

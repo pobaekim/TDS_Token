@@ -1,0 +1,177 @@
+{
+  "$description": "다크 모드 시맨틱 토큰 - 색상 정의 (Dark Theme)",
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "value": "{primitive.color.blue.500}",
+          "type": "color",
+          "description": "주요 액션 / 브랜드 Primary (Dark Mode)"
+        },
+        "primaryHover": {
+          "value": "{primitive.color.blue.400}",
+          "type": "color",
+          "description": "Primary Hover (Dark Mode)"
+        },
+        "primaryActive": {
+          "value": "{primitive.color.blue.300}",
+          "type": "color",
+          "description": "Primary Active/Pressed (Dark Mode)"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{primitive.color.slate.50}",
+          "type": "color",
+          "description": "본문 기본 (Dark Mode)"
+        },
+        "muted": {
+          "value": "{primitive.color.slate.400}",
+          "type": "color",
+          "description": "보조 텍스트 (Dark Mode)"
+        },
+        "subtle": {
+          "value": "{primitive.color.slate.500}",
+          "type": "color",
+          "description": "메타/설명 텍스트 (Dark Mode)"
+        },
+        "inverted": {
+          "value": "{primitive.color.slate.900}",
+          "type": "color",
+          "description": "밝은 배경 위 텍스트 (Dark Mode)"
+        },
+        "onPrimary": {
+          "value": "{primitive.color.white}",
+          "type": "color",
+          "description": "Primary 배경 위 텍스트 (Dark Mode)"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{primitive.color.blue.400}",
+          "type": "color",
+          "description": "링크 기본 (Dark Mode)"
+        },
+        "hover": {
+          "value": "{primitive.color.blue.300}",
+          "type": "color",
+          "description": "링크 Hover (Dark Mode)"
+        }
+      },
+      "surface": {
+        "default": {
+          "value": "{primitive.color.slate.900}",
+          "type": "color",
+          "description": "기본 표면 / 페이지 배경 (Dark Mode)"
+        },
+        "subtle": {
+          "value": "{primitive.color.slate.800}",
+          "type": "color",
+          "description": "보조 영역 / 카드 배경 (Dark Mode)"
+        },
+        "contrast": {
+          "value": "{primitive.color.white}",
+          "type": "color",
+          "description": "대비 높은 표면 / 라이트 UI (Dark Mode)"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{primitive.color.slate.700}",
+          "type": "color",
+          "description": "기본 보더 (Dark Mode)"
+        },
+        "subtle": {
+          "value": "{primitive.color.slate.800}",
+          "type": "color",
+          "description": "옅은 보더 / 구분선 (Dark Mode)"
+        },
+        "strong": {
+          "value": "{primitive.color.slate.600}",
+          "type": "color",
+          "description": "강한 보더 (Dark Mode)"
+        }
+      },
+      "divider": {
+        "value": "{primitive.color.slate.700}",
+        "type": "color",
+        "description": "구분선 (Dark Mode)"
+      },
+      "overlay": {
+        "value": "{primitive.color.black}",
+        "type": "color",
+        "description": "오버레이 베이스 (Dark Mode)"
+      },
+      "state": {
+        "info": {
+          "default": {
+            "value": "{primitive.color.blue.400}",
+            "type": "color",
+            "description": "정보 강조 (Dark Mode)"
+          },
+          "bg": {
+            "value": "{primitive.color.blue.900}",
+            "type": "color",
+            "description": "Info 약한 배경 (Dark Mode)"
+          },
+          "text": {
+            "value": "{primitive.color.blue.200}",
+            "type": "color",
+            "description": "Info 약한 텍스트 (Dark Mode)"
+          }
+        },
+        "success": {
+          "default": {
+            "value": "{primitive.color.green.400}",
+            "type": "color",
+            "description": "성공/완료 (Dark Mode)"
+          },
+          "bg": {
+            "value": "{primitive.color.green.900}",
+            "type": "color",
+            "description": "Success 약한 배경 (Dark Mode)"
+          },
+          "text": {
+            "value": "{primitive.color.green.200}",
+            "type": "color",
+            "description": "Success 약한 텍스트 (Dark Mode)"
+          }
+        },
+        "warning": {
+          "default": {
+            "value": "{primitive.color.orange.400}",
+            "type": "color",
+            "description": "경고/주의 (Dark Mode)"
+          },
+          "bg": {
+            "value": "{primitive.color.yellow.900}",
+            "type": "color",
+            "description": "Warning 약한 배경 (Dark Mode)"
+          },
+          "text": {
+            "value": "{primitive.color.orange.200}",
+            "type": "color",
+            "description": "Warning 약한 텍스트 (Dark Mode)"
+          }
+        },
+        "danger": {
+          "default": {
+            "value": "{primitive.color.red.400}",
+            "type": "color",
+            "description": "오류/위험 (Dark Mode)"
+          },
+          "bg": {
+            "value": "{primitive.color.red.900}",
+            "type": "color",
+            "description": "Danger 약한 배경 (Dark Mode)"
+          },
+          "text": {
+            "value": "{primitive.color.red.200}",
+            "type": "color",
+            "description": "Danger 약한 텍스트 (Dark Mode)"
+          }
+        }
+      }
+    }
+  }
+}
