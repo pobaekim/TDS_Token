@@ -156,11 +156,27 @@ tokens-refactored/
 ### 2. 통합 파일 사용 (권장)
 
 ```javascript
-// 하나의 파일에 Light + Dark 모두 포함
+// 모든 토큰 파일을 하나로 묶은 형태
 import allTokens from './tokens.json';
 
+// 구조: { primitive, semantic-common, semantic-light, semantic-dark }
+
+// Light 테마 구성
+const lightTheme = {
+  ...allTokens.primitive,
+  ...allTokens['semantic-common'],
+  ...allTokens['semantic-light']
+};
+
+// Dark 테마 구성
+const darkTheme = {
+  ...allTokens.primitive,
+  ...allTokens['semantic-common'],
+  ...allTokens['semantic-dark']
+};
+
 // 테마에 따라 선택
-const tokens = isDark ? allTokens.dark : allTokens.light;
+const tokens = isDark ? darkTheme : lightTheme;
 ```
 
 ### 3. 분리된 파일 직접 사용 (고급)
@@ -283,8 +299,10 @@ jq -n \
   --slurpfile light semantic-light.json \
   --slurpfile dark semantic-dark.json \
   '{
-    light: ($primitive[0] * $common[0] * $light[0]),
-    dark: ($primitive[0] * $common[0] * $dark[0])
+    primitive: $primitive[0],
+    "semantic-common": $common[0],
+    "semantic-light": $light[0],
+    "semantic-dark": $dark[0]
   }' > tokens.json
 ```
 
@@ -304,8 +322,10 @@ jq -n \
   --slurpfile light semantic-light.json \
   --slurpfile dark semantic-dark.json \
   '{
-    light: ($primitive[0] * $common[0] * $light[0]),
-    dark: ($primitive[0] * $common[0] * $dark[0])
+    primitive: $primitive[0],
+    "semantic-common": $common[0],
+    "semantic-light": $light[0],
+    "semantic-dark": $dark[0]
   }' > tokens.json
 
 if [ $? -eq 0 ]; then
