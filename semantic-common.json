@@ -247,7 +247,7 @@
     "spacing": {
       "component": {
         "3xs": {
-          "value": "{primitive.spacing.0.5}",
+          "value": "{primitive.spacing.0-5}",
           "type": "spacing",
           "description": "픽셀 정렬, 칩/아이콘 미세 인셋"
         },
@@ -257,7 +257,7 @@
           "description": "컴포넌트 내부 최소 간격"
         },
         "xxsPlus": {
-          "value": "{primitive.spacing.1.5}",
+          "value": "{primitive.spacing.1-5}",
           "type": "spacing",
           "description": "라벨-컨트롤 사이"
         },
@@ -267,7 +267,7 @@
           "description": "컴포넌트 간 기본 간격(타이트)"
         },
         "xsPlus": {
-          "value": "{primitive.spacing.2.5}",
+          "value": "{primitive.spacing.2-5}",
           "type": "spacing",
           "description": "버튼 그룹, 칩 리스트"
         },

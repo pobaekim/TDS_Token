@@ -62,7 +62,7 @@ tokens-refactored/
 
 #### Spacing
 - `primitive.spacing.0` ~ `primitive.spacing.32`
-- 4px 기본 단위 (0.5 = 2px, 1 = 4px, 2 = 8px, ...)
+- 4px 기본 단위 (0-5 = 2px, 1 = 4px, 1-5 = 6px, 2 = 8px, 2-5 = 10px, ...)
 
 #### Typography
 - **Font Size**: xs(10px) ~ 4xl(40px)
