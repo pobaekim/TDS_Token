@@ -1,7 +1,6 @@
 {
   "$description": "공통 시맨틱 토큰 - 테마 독립적 속성 (Typography, Spacing, Radius, Border 구조)",
-  "semantic": {
-    "typography": {
+  "typography": {
       "heading": {
         "h1": {
           "value": {
@@ -342,7 +341,6 @@
         "description": "완전한 원형"
       }
     }
-  }
 }
 
 

@@ -1,7 +1,6 @@
 {
   "$description": "다크 모드 시맨틱 토큰 - 색상 정의 (Dark Theme)",
-  "semantic": {
-    "color": {
+  "color": {
       "action": {
         "primary": {
           "value": "{primitive.color.blue.500}",
@@ -312,5 +311,4 @@
         }
       }
     }
-  }
 }

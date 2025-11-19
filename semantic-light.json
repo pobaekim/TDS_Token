@@ -1,7 +1,6 @@
 {
   "$description": "라이트 모드 시맨틱 토큰 - 색상 정의 (Light Theme)",
-  "semantic": {
-    "color": {
+  "color": {
       "action": {
         "primary": {
           "value": "{primitive.color.blue.600}",
@@ -312,5 +311,4 @@
         }
       }
     }
-  }
 }

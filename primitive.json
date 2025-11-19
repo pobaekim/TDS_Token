@@ -1,7 +1,6 @@
 {
   "$description": "기본 디자인 토큰 - 모든 원시 값 정의",
-  "primitive": {
-    "spacing": {
+  "spacing": {
       "0": {
         "value": "0px",
         "type": "spacing"
@@ -648,6 +647,5 @@
         }
       }
     }
-  }
 }
 
